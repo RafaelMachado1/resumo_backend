@@ -1,0 +1,19 @@
+{
+  "name": "typescript_ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ./build/resumo.js",
+    "start-pratica": "tsc && node ./build/index.js",
+    "start-ex-1": "tsc && node ./build/fixacao/exercicio1/index.js",
+    "start-ex-2": "tsc && node ./build/fixacao/exercicio2/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "typescript": "^5.0.2"
+  }
+}
