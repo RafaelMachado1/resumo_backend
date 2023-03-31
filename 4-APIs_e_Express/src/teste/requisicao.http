@@ -1,0 +1,17 @@
+get  http://localhost:3003/courses
+Content-Type: application/json
+
+###
+
+
+POST  http://localhost:3003/courses
+Content-Type: application/json
+Authorization: Rafael-Machado
+{
+    "id":"c004", 
+    "name":"Java", 
+    "lessons":1, 
+    "stack":"Back-end"
+}
+
+###
