@@ -1,0 +1,43 @@
+get  http://localhost:3003/courses
+Content-Type: application/json
+
+###
+
+get http://localhost:3003/courses/search?q=React
+Content-Type: application/json
+
+###
+
+post http://localhost:3003/courses
+Content-Type: application/json
+
+{
+    "id": "c004",
+    "name": "Figma",
+    "lessons": 10,
+    "FRONT": "Front-end"
+   }
+
+###
+
+get http://localhost:3003/students
+Content-Type: application/json
+
+###
+
+get http://localhost:3003/students/search?q=Rafael
+Content-Type: application/json
+
+###
+
+post http://localhost:3003/students
+Content-Type: application/json
+
+{
+    "id": "c006",
+    "name": "Davi",
+    "age": 15
+   }
+
+###
+
